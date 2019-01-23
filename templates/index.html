@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+{#    pass in dictionary namde from views.py#}
+    {%for image in images  %}
+        <div class="card" style="width: 18rem;">
+            <div class="card body">
+
+                <h5>{{ image.title }}</h5>
+                {{ image.description }}
+                <img src = "{{ image.picture }}" >
+
+    {% endfor %}
+
+{% endblock %}
