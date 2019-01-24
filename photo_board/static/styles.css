@@ -1,0 +1,25 @@
+img {
+    height :300px;
+    width: 300px;
+}
+
+h2{
+    color: darkmagenta;
+    font-size: 40px;
+    margin-left: 0;
+}
+
+h4{
+    font-size: 25px;
+    color: lightskyblue;
+}
+
+body{
+    width:30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
