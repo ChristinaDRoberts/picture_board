@@ -42,7 +42,7 @@ SECRET_KEY = 'wyv^#8vv-%@hu4-mw2&f8qp1h1%z!q23^)scf=6w-=1lgk)0%#'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost', 'photo_board27.herokuapp.com'
+    'localhost', 'photo-board27.herokuapp.com'
 ]
 
 
@@ -134,7 +134,4 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
