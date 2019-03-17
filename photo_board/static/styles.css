@@ -1,6 +1,10 @@
 img {
-    height :300px;
-    width: 300px;
+    height :100%;
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+    margin-right: 100px;
+
 }
 
 h2{
@@ -15,11 +19,17 @@ h4{
 }
 
 body{
-    width:30%;
+    width:100%;
     margin: 0 auto;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 div{
     text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    width:100%;
 }

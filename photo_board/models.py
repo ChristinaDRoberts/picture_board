@@ -7,6 +7,8 @@ class Image(models.Model):
     picture = models.URLField()
     description = models.TextField()
 
+    def __str__(self):
+        return self.title
 
 
 
